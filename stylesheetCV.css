@@ -12,6 +12,7 @@ body {
 header, main, footer {
 	background-attachment: fixed;
 	background-repeat: repeat;
+	border-radius: 50px;
 }
 
 header {
@@ -71,6 +72,14 @@ footer p {
 	color: #ffffff;
 }
 
+footer section {
+	display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 48%;
+    
+}
+
 a:hover {
 	font-weight: bold;
 }
@@ -81,6 +90,7 @@ a:hover {
 	padding: 10px;
 	margin: 15px;
 	box-sizing: border-box;
+	
 }
 
 #logo {
@@ -104,11 +114,15 @@ a:hover {
 	color: green;
 }
 
+
+
+#info_contact {
+	margin-left: 30px;
+}
+
 #map_canvas {
-	width:700px;
-    height:500px;
-    border:1px solid #efefef;
-    margin:auto;
+	margin:auto;
+    height: 250px;
     -moz-box-shadow:5px 5px 10px #000;
     -webkit-box-shadow:5px 5px 10px #000;
 }
